@@ -40,8 +40,9 @@ body {
 }
 
 body {
-	background: url('/images/bg1.jpg') no-repeat center center fixed;
-	background-size: cover;
+	/* background: url('/images/bg1.jpg') no-repeat center center fixed;
+	background-size: cover; */
+	background: linear-gradient(20deg, #ffffff, #a58284);
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -74,7 +75,7 @@ body {
 .hamburger div {
 	width: 100%;
 	height: 4px;
-	background: linear-gradient(100deg, #000000, #ffffff, #cfee20, #00c542);
+	background: linear-gradient(100deg, #000000, #ffffff, #eb0089, #6d2881);
 	background-size: 400% 400%;
 	animation: gradientShift 18s ease infinite;
 	border-radius: 10px;

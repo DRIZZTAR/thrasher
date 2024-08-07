@@ -87,14 +87,13 @@ function App() {
 					onDecline={() => setDpr(1)}
 				>
 					{/* <XR store={store}> */}
-						<group position-y={0.1}>
-							<Suspense fallback={null}>
-								<Experience />
-							</Suspense>
-						</group>
+					<group position-y={0.1}>
+						<Suspense fallback={null}>
+							<Experience />
+						</Suspense>
+					</group>
 					{/* </XR> */}
 					<EffectComposer>
-						<Vignette eskil={true} offset={0.6} darkness={3} />
 						{/* <ColorAverage
 							blendFunction={BlendFunction.REFLECT} // blend mode
 						/>{' '} */}

@@ -108,13 +108,13 @@ export const UI = ({ toggleEnvironment, showEnvironment }) => {
 			<main className='pointer-events-none select-none z-10 fixed inset-0 flex justify-between flex-col'>
 				<div className='p-4 pointer-events-auto text-slate-200'>
 					<h1 className='text-3xl font-light sm:text-4xl'>
-						The Legend Of Zelda
+						THRASHER
 					</h1>
 					<p className='text-lg font-thin sm:text-2xl'>
 						ゼルダの伝説
 					</p>
 					<p className='text-lg font-thin sm:text-2xl'>
-						A LINK TO THE PAST
+						SKATE OR DIE
 					</p>
 
 					<MusicPlayer />
@@ -184,6 +184,15 @@ export const UI = ({ toggleEnvironment, showEnvironment }) => {
 							rel='noopener noreferrer'
 						>
 							Batman Issue #01
+						</a>
+					</div>
+					<div className='menu-item'>
+						<a
+							href='https://link-to-the-past.vercel.app/'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							A Link To The Past
 						</a>
 					</div>
 					<div className='menu-item font-bold'>
